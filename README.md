@@ -40,7 +40,7 @@ Download Visual Studio Code - Mac, Linux, Windows
     <td>ARM</td>
   </tr>
   <tr>
-    <td>.zip</td>
+    <td><strong>.zip</strong></td>
     <td>64 bit</td>
     <td>32 bit</td>
     <td>ARM</td>
