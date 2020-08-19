@@ -1,0 +1,2 @@
+# explain.how_to_install_vscode.portable
+VSCode ポータブル版のインストール方法を説明します
