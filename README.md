@@ -29,10 +29,23 @@ Download VS Code Windows
 Windows 7, 8, 10  
 | | | |  
 |:-- |:-- |:-- |:-- |  
-|User Installer	|64 bit	|32 bit	|ARM |  
-|System Installer	|64 bit	|32 bit	|ARM |  
-|.zip	|64 bit	|32 bit	|ARM |  
-
-| :--- | :---: | ---: |
-| TD | TD | TD |
-| TD | TD | TD |
+<table>
+  <tr>
+    <td>User Installer</td>
+    <td>64 bit</td>
+    <td>32 bit</td>
+    <td>ARM</td>
+  </tr>
+  <tr>
+    <td>System Installer</td>
+    <td>64 bit</td>
+    <td>32 bit</td>
+    <td>ARM</td>
+  </tr>
+  <tr>
+    <td>.zip</td>
+    <td>64 bit</td>
+    <td>32 bit</td>
+    <td>ARM</td>
+  </tr>
+</table>
