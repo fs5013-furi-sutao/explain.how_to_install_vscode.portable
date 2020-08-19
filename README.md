@@ -46,3 +46,55 @@ Download Visual Studio Code - Mac, Linux, Windows
     <td>ARM</td>
   </tr>
 </table>
+
+## Zip ファイルの解凍
+例えば、64 ビットだったら `VSCode-win32-x64-1.41.1.zip` というファイルがダウンロードできる。
+
+このファイルを解凍する。中身のフォルダ・ファイルは以下の通りになっている。
+
+```
+C:\VSCode-win32-x64-1.41.1.zip
+├─bin
+├─ locales
+├─ resources
+├─ swiftshader
+├─ tools
+│  chrome_100_percent.pak
+│  chrome_200_percent.pak
+│  Code.exe
+│  Code.VisualElementsManifest.xml
+│  d3dcompiler_47.dll
+│  ffmpeg.dll
+│  icudtl.dat
+│  libEGL.dll
+│  libGLESv2.dll
+│  natives_blob.bin
+│  resources.pak
+│  snapshot_blob.bin
+└─ v8_context_snapshot.bin
+```
+
+この中の `Code.exe` が実行ファイルで、この .exe ファイルを実行すれば VSCode を起動することができる。
+
+実際に VSCode を起動する前に、ユーザ設定データを格納する場所を、以下の手順で作る。
+
+## data フォルダの作成
+上記の解凍したフォルダ内に 'data' という名前のフォルダを作成する。中身は空でよい。
+
+VSCode を使っていく中で利用していくプラグイン（Extention: 拡張機能）や設定情報は、この作成した'data' フォルダの中に保存されていく。
+
+つまり、この 'data' フォルダさえあれば、どの PC だろうと、Zip を解凍した VSCode のフォルダ内に放り込むことで、今まで通りの自分の設定で VSCode が瞬時に使えるようになる・・・という仕組みだ。
+
+だから、持ち運びができる「ポータブル版」というわけだ。
+
+USB に、この VSCode フォルダを入れて、PC にそのまま USB を挿してアプリを起動することもできる。
+
+カンタンに自分の設定や環境を移動できるという点で、ポータブル版は開発者に向いている仕組みだ。
+
+## VSCode フォルダの置き場
+出来上がった VSCode フォルダは、どこに置いても良い。
+
+C: ドライブ直下などに置いても、アプリの動作には問題ない。
+
+フォルダの名前は、自分の好きなようにリネームしても構わない。
+
