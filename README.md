@@ -25,10 +25,7 @@ OS バージョン:          10.0.18363 N/A ビルド 18363
 Download Visual Studio Code - Mac, Linux, Windows  
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-Download VS Code Windows  
-Windows 7, 8, 10  
-| | | |  
-|:-- |:-- |:-- |:-- |  
+ページを見ると、以下のようにインストーラの種類が揃っている。この中から「.zip」のインストーラを自分の OS のビット数に応じてダウンロードする。
 <table>
   <tr>
     <td>User Installer</td>
