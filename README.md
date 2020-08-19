@@ -32,3 +32,8 @@ Windows 7, 8, 10
 |User Installer	|64 bit	|32 bit	|ARM |  
 |System Installer	|64 bit	|32 bit	|ARM |  
 |.zip	|64 bit	|32 bit	|ARM |  
+
+| TH 左寄せ | TH 中央寄せ | TH 右寄せ |
+| :--- | :---: | ---: |
+| TD | TD | TD |
+| TD | TD | TD |
